@@ -8,23 +8,24 @@
     
 	Para la gestión de grupos de control vamos a usar la libreria "libcgroup".
 
-    -> Creamos un grupo llamado "teestoyviendo":
+	-> Creamos un grupo llamado "teestoyviendo":
 
 		sudo cgcreate -a roge -g memory,cpu,cpuacct:teestoyviendo
 
-    -> Creamos 3 subgrupos dentro del principal: navegador, editor, explorador:
+	-> Creamos 3 subgrupos dentro del principal: navegador, editor, explorador:
       
 		sudo cgcreate -g memory,cpu,cpuacct:teestoyviendo/navegador
 		sudo cgcreate -g memory,cpu,cpuacct:teestoyviendo/editor
 		sudo cgcreate -g memory,cpu,cpuacct:teestoyviendo/explorador
       
-    -> Una vez creados los subgrupos, lanzamos la aplicación desde su correspondiente:
+	-> Una vez creados los subgrupos, lanzamos la aplicación desde su correspondiente:
       
 		sudo cgexec -g memory,cpu,cpuacct:teestoyviendo/navegador firefox
 		sudo cgexec -g memory,cpu,cpuacct:teestoyviendo/editor gedit
 		sudo cgexec -g memory,cpu,cpuacct:teestoyviendo/explorador nautilus
   
-	-> Consultamos los resultados en los archivos correspondientes. En la carpeta cpuacct encontramos el tiempo consumido por la CPU:
+	-> Consultamos los resultados en los archivos correspondientes. 
+	En la carpeta cpuacct encontramos el tiempo consumido por la CPU:
 		
 		cat /sys/fs/cgroup/cpuacct/teestoyviendo/navegadores/cpuacct.stat
 		cat /sys/fs/cgroup/cpuacct/teestoyviendo/navegadores/cpuacct.usage
