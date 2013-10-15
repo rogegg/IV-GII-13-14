@@ -100,6 +100,16 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 
 
 ### Ejercicio 9
+	Comprobar si el procesador o procesadores instalados lo tienen. ¿Qué modelo de procesador es?
+	¿Qué aparece como salida de esa orden?
+	
+	["Modelo del procesador"](https://github.com/rogegg/IV-GII-13-14/blob/master/Ejercicios/Ejercicio9.png)
+	Como podemos ver en la captura de pantalla el modelo de procesador es:
+		Pentium(R) Dual-Core CPU T4200 @ 2.00GHz
+		
+	También podemos ver que al realizar la orden 
+		egrep '^flags.*(vmx|svm)' /proc/cpuinfo
+	no nos muestra ningún resultado, por lo que este modelo de procesador no posee la tecnología VT-x de Intel
 
 	
 
