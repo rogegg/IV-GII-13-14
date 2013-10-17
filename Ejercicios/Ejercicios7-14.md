@@ -24,7 +24,8 @@
 		sudo cgexec -g memory,cpu,cpuacct:teestoyviendo/editor gedit
 		sudo cgexec -g memory,cpu,cpuacct:teestoyviendo/explorador nautilus
   
-	-> Consultamos los resultados en los archivos correspondientes. En la carpeta cpuacct encontramos el tiempo consumido por la CPU:
+	-> Consultamos los resultados en los archivos correspondientes. En la carpeta cpuacct encontramos el tiempo 
+	   consumido por la CPU:
 		
 		cat /sys/fs/cgroup/cpuacct/teestoyviendo/navegadores/cpuacct.stat
 		cat /sys/fs/cgroup/cpuacct/teestoyviendo/navegadores/cpuacct.usage
@@ -47,7 +48,8 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 
 
 ### Ejercicio 8
-	2. Implementar usando el fichero de configuración de cgcreate una política que dé menos prioridad a los procesos de usuario 	que a los procesos del sistema (o viceversa).
+	2. Implementar usando el fichero de configuración de cgcreate una política que dé menos prioridad a los procesos 
+	   de usuario 	que a los procesos del sistema (o viceversa).
 
 	La configuración se realiza mediante la edición de los dos archivos siguientes:
 		/etc/cgconfig.conf 
@@ -103,7 +105,8 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 	Comprobar si el procesador o procesadores instalados lo tienen. ¿Qué modelo de procesador es?
 	¿Qué aparece como salida de esa orden?
 	
-	["Modelo del procesador"](https://github.com/rogegg/IV-GII-13-14/blob/master/Ejercicios/Ejercicio9.png)
+["Modelo del procesador"](https://github.com/rogegg/IV-GII-13-14/blob/master/Ejercicios/Ejercicio9.png)
+
 	Como podemos ver en la captura de pantalla el modelo de procesador es:
 		Pentium(R) Dual-Core CPU T4200 @ 2.00GHz
 		
@@ -115,7 +118,8 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 ### Ejercicio 10
 	Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
-	["kvm-ok"]()
+["kvm-ok"]()
+
 	En la captura podemos ver que al ejecutar la orden el resutado es:
 		INFO: Your CPU does not support KVM extensions
 		KVM acceleration can NOT be used
@@ -126,7 +130,7 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 ### Ejercicio 11
 	Comentar diferentes soluciones de Software as a Service de uso habitual.
 
-Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
+	Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
 
 
 ### Ejercicio 12
@@ -141,7 +145,8 @@ Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
 		$source bin/activate
 	Vemos como el prompt cambia, lo que nos indica que ya está activado.
 
-	*fuentes: http://www.virtualenv.org/en/latest/   http://rukbottoland.com/tutoriales/tutorial-de-python-virtualenv/*
+*fuentes: http://www.virtualenv.org/en/latest/*
+*http://rukbottoland.com/tutoriales/tutorial-de-python-virtualenv/*
 
 ### Ejercicio 13
 
