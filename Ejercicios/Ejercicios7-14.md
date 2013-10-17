@@ -112,4 +112,37 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 	no nos muestra ningún resultado, por lo que este modelo de procesador no posee la tecnología VT-x de Intel
 
 	
+### Ejercicio 10
+	Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
+	["kvm-ok"]()
+	En la captura podemos ver que al ejecutar la orden el resutado es:
+		INFO: Your CPU does not support KVM extensions
+		KVM acceleration can NOT be used
+	Lo que nos indica que no está soportado por la cpu.
+
+
+
+### Ejercicio 11
+	Comentar diferentes soluciones de Software as a Service de uso habitual.
+
+	Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
+
+
+### Ejercicio 12
+	Instalar un entorno virtual para tu lenguaje de programación favorito (uno de los mencionados arriba, obviamente).
+
+	Hemos instalado *virtual env para Python*. Para ello desde el terminal:
+		$sudo apt-get install python-virtualenv python-dev
+	Para crear un espacio para trabajar:
+		$virtualenv mi_proyecto
+	Y para activar el entorno:
+		$cd mi_proyecto
+		$source bin/activate
+	Vemos como el prompt cambia, lo que nos indica que ya está activado.
+
+	*fuentes: http://www.virtualenv.org/en/latest/   http://rukbottoland.com/tutoriales/tutorial-de-python-virtualenv/*
+
+### Ejercicio 13
+
+### Ejercicio 14
