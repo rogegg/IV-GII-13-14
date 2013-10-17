@@ -105,7 +105,7 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 	Comprobar si el procesador o procesadores instalados lo tienen. ¿Qué modelo de procesador es?
 	¿Qué aparece como salida de esa orden?
 	
-["Modelo del procesador"](https://github.com/rogegg/IV-GII-13-14/blob/master/Ejercicios/Ejercicio9.png)
+>!["Modelo del procesador"](https://raw.github.com/rogegg/IV-GII-13-14/master/Ejercicios/Ejercicio9.png)
 
 	Como podemos ver en la captura de pantalla el modelo de procesador es:
 		Pentium(R) Dual-Core CPU T4200 @ 2.00GHz
@@ -118,7 +118,8 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 ### Ejercicio 10
 	Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
-["kvm-ok"]()
+
+>!["kvm-ok"](https://raw.github.com/rogegg/IV-GII-13-14/master/Ejercicios/ejercicio10.png)
 
 	En la captura podemos ver que al ejecutar la orden el resutado es:
 		INFO: Your CPU does not support KVM extensions
@@ -130,7 +131,7 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 ### Ejercicio 11
 	Comentar diferentes soluciones de Software as a Service de uso habitual.
 
-	Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
+Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
 
 
 ### Ejercicio 12
