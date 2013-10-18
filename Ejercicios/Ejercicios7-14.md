@@ -148,6 +148,13 @@ cpuacct.usage_percpu |CPU0: 393322866912 CPU1: 386540802436 | CPU0: 11361191987 
 *fuentes: http://www.virtualenv.org/en/latest/*
 *http://rukbottoland.com/tutoriales/tutorial-de-python-virtualenv/*
 
-### Ejercicio 13
+### Ejercicio 13 y 14
+	**Darse de alta en algún servicio PaaS tal como Heroku, Nodejitsu u OpenShift.**
+	**Crear una aplicación en OpenShift y dentro de ella instalar WordPress.**
 
-### Ejercicio 14
+
+
+	Hemos realizado el registro en OpenShift e instalado WordPress creando un blog de prueba
+	que podemos ver mediante el siguiente enlace:
+*http://rogegg-ivejercicio14.rhcloud.com/*
+
