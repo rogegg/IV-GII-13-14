@@ -159,3 +159,5 @@ Link al *"issues"* [aquí](https://github.com/IV-GII/GII-2013/issues/11)
 	que podemos ver mediante el siguiente enlace:
 *http://rogegg-ivejercicio14.rhcloud.com/*
 
+	Una captura de pantalla:
+>![captura14](https://raw.github.com/rogegg/IV-GII-13-14/master/Ejercicios/ejercicio14.png)
