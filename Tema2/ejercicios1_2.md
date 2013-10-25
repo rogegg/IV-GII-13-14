@@ -8,15 +8,15 @@ Para montar una iso:
 
 Dejamos una captura por aquí.
 
-!["Ejercicio1"]()
+!["Ejercicio1"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio1.png)
 
 
 
 ###Ejercicio2
 El único puente que tenemos es el creado durante la lectura de los ejercicios como prueba. Vemos que no existía otro puente antes.
 
-!["Ejercicio2a"]()
+!["Ejercicio2a"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio2a.png)
 
 Hemos creado un interfaz virtual, pero no se ha podido enlazar con la conexión wifi. Por lo que se ha asignado a la tarjeta de red eth0.
 
-!["Ejercicio2a"]()
+!["Ejercicio2b"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio2.b.png)
