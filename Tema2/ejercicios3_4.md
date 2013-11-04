@@ -35,9 +35,11 @@ Ubuntu Saucy instalado en el ejercicio 3 es un sistema basado en debian, vamos a
 Montando proc
 >$ mount -t proc proc /proc
 
+Vemos como ahora si podemos usar top.
+
 ![Ejercicio4a](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio4a.png)
 
-También podemos usar git 
+También podemos usar git.
 
 ![Ejercicio4a2](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio4a2.png)
 
