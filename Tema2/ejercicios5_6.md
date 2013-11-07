@@ -72,8 +72,13 @@ Esta jaula se puede usar directamente con chroot, pero jailkit también permite 
 
 
 
+Aunque este usuario existe en la jaula, no se podrá conectar con el shell limitado que tiene. Habrá que editar la configuración del usuario (que estará en /seguro/jaulas/dorada/etc/passwd) y cambiar jk_lsh por /bin/bash, el shell habitual.
+
+
+![Ejercicio6b](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio6c.png)
 
 
 
+Para conectarnos como el usuario creado y enjaulado haremos:
 
-
+>$ ssh pepe@localhost
