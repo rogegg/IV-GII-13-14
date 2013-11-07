@@ -18,7 +18,7 @@ Instalamos el servidor web de altas prestaciones nginx.
 
 >$ sudo apt-get install nginx
 
-![Ejercicio5a](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio5a.png)
+![Ejercicio5a](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/Ejercicio5a.png)
 
 Iniciamos el servicio de nginx y comprobamos que está instalado con curl, que nos permite ejecutar aplicaciones web y nos va a permitir ver la plantilla de ejemplo de nginx.
 
