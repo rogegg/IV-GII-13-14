@@ -41,13 +41,16 @@ Para instalar jailkit lo descargamos de la página:
 Nos vamos al directorio de la descarga y procedemos a su instalación con la siguiente secuencia:
 
 >$ ./configure
+
 >$ make
+
 >$ sudo make install
 
 
 Ahora creamos un sistema de ficheros "poseído" por root:
 
 >$ sudo mkdir -p /seguro/jaulas/dorada
+
 >$ sudo chown -R root:root /seguro
 
 
@@ -57,8 +60,11 @@ Ahora vamos a iniciar jailkit con:
 >$ jk_init -v -j /seguro/jaulas/dorada jk_lsh basicshell netutils editors
 
 >-v  (verbose) nos muestra los mensajes.
+
 >-j  indicamos la ruta de la jaula.
+
 >Los siguientes comandos son alias de lo que se va a instalar en la jaula.
+
 
 ![Ejercicio6a](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio6a.png)
 
@@ -66,6 +72,7 @@ Ahora vamos a iniciar jailkit con:
 Esta jaula se puede usar directamente con chroot, pero jailkit también permite enjaular usuarios. Creamos el usuario y lo asignamos a nuestra jaula.
 
 >$ sudo adduser pepe
+
 >$ sudo jk_jailuser -m -j /seguro/jaulas/dorada pepe
 
 ![Ejercicio6b](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema2/capturas/ejercicio6b.png)
