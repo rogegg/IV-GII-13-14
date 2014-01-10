@@ -6,6 +6,7 @@ En la siguiente captura vemos las interfaces puente creadas al arrancar el conte
 !["Ejercicio2"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej2.png)
 
 > Interfaz: vethhdUXeK
+
 > Puente: 8000.fe2659b716ab
 
 
@@ -33,7 +34,9 @@ Vamos a crear un contenedor con el sistema fedora. Para ello igual que en el pas
 Arrancamos el contenedor llamado fedora:
 
 > $ sudo lxc-start -n fedora
+
 > user:root
+
 > password: root
 
 !["Ejercicio3_2a"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej3_3.png)
