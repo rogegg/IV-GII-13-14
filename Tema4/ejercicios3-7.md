@@ -106,3 +106,6 @@ Ya sólo nos queda montarlo con la orden mount en un directorio previamente crea
 
 
 
+
+
+
