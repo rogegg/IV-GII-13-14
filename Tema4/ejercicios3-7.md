@@ -61,24 +61,24 @@ Siguiendo los apuntes tenemos que para crear un dispositivo lo primero que debem
 
 La configuración de ceph la llevaremos a cabo manualmente creando un fichero de configuración:
 
-> [global]
-	log file = /var/log/ceph/$name.log
-	pid file = /var/run/ceph/$name.pid
-	[mon]
-	mon data = /srv/ceph/mon/$name
-	[mon.mio]
-	host = penny
-	mon addr = 127.0.0.1:6789
-	[mds]
-	[mds.mio]
-	host = penny
-	[osd]
-	osd data = /srv/ceph/osd/$name
-	osd journal = /srv/ceph/osd/$name/journal
-	osd journal size = 1000 ; journal size, in megabytes
-	[osd.0]
-	host = penny
-	xfs devs = /dev/loop1
+	[global]
+		log file = /var/log/ceph/$name.log
+pid file = /var/run/ceph/$name.pid
+[mon]
+mon data = /srv/ceph/mon/$name
+[mon.mio]
+host = penny
+mon addr = 127.0.0.1:6789
+[mds]
+[mds.mio]
+host = penny
+[osd]
+osd data = /srv/ceph/osd/$name
+osd journal = /srv/ceph/osd/$name/journal
+osd journal size = 1000 ; journal size, in megabytes
+[osd.0]
+host = penny
+xfs devs = /dev/loop1
 
 
 *mio* será el nombre corto que le damos a la máquina y *penny* el nombre local de nuestra máquina.
