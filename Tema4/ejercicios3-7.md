@@ -4,7 +4,7 @@ La primera imagen para el amacenamiento virtual vamos a crearla con formato RAW,
 
 > $ dd of=ddvirtual.img bs=1k seek=5242879 count=0
 
-!["Ejercicio3"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej3.png)
+!["Ejercicio3"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema4/capturas/ej3.png)
 
 
 Vamos a probar a crear usando otros formatos como VMDK.
@@ -13,9 +13,9 @@ Vamos a probar a crear usando otros formatos como VMDK.
 
 Y a usarlo en una máquina virtual creada desde VirtualBox.
 
-!["Ejercicio3b"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej3b.png)
+!["Ejercicio3b"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema4/capturas/ej3b.png)
 
-!["Ejercicio3c"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej3c.png)
+!["Ejercicio3c"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema4/capturas/ej3c.png)
 
 Vemos cómo aparece como unidad de almacenamiento virtual, y su tamaño real es mucho menor que su tamaño virtual.
 
@@ -44,7 +44,7 @@ NOTA: si no podemos usar mkfs.xfs instalaremos el paquete *xfsprogs*
 
 Vemos como tenemos montado el sistema /dev/loop0 en /mnt/xfs
 
-!["Ejercicio4"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej4.png)
+!["Ejercicio4"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema4/capturas/ej4.png)
 
 
 

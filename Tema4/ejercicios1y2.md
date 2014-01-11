@@ -8,7 +8,7 @@ Mi disco duro tiene 4 particiones:
 * 4-Partición swap de Linux
 
 
-!["Ejercicio1"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema3/capturas/ej1b.png)
+!["Ejercicio1"](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema4/capturas/ej1b.png)
 
 
 
