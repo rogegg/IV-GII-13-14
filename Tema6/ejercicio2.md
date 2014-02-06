@@ -78,3 +78,12 @@ default.rb:
     
     
 
+Ahora sólo nos queda lanzar las recetas con chef:
+
+> sudo chef
+
+
+![ejercicio2_install](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej2_install.png)  
+
+
+
