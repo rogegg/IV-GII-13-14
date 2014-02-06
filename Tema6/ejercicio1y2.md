@@ -1,4 +1,4 @@
-###Ejercicio 1
+##Ejercicio 1
 
 Para instalar *Chef* vamos a necesitar ruby, por lo que lo primero a instalar en la máquina virtual serán los siguientes paquetes:
 
@@ -16,7 +16,7 @@ Chef no se encuentra en los repositorios por lo que para descargarlo lo haremos 
 
 
 
-###Ejercicio2
+##Ejercicio2
 
 Chef usa recetas con las que podemos configurar nuestra máquina virtual, para ello necesitamos tener una estructura de directorios como la que sigue:
 
