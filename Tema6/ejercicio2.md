@@ -30,17 +30,51 @@ En la carpeta *cookbooks* tenemos dos ficheros: _node.json_ y _solo.rb_:
 - En **solo.rb** indicaremos las rutas necesarias de chef y las rutas de recetas.
 
 
-Para instalar emacs, nginx y un directorio de trabajo como nos indica el ejercicio tendremos los siguientes ficheros:
+Para instalar emacs, nginx y un directorio de trabajo como nos indica el ejercicio tendremosel siguiente árbol de directorios con los siguientes ficheros:
 
-######nginx
+![ejercicio2_arbol](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej2_tree.png)  
+
+
+
+####nginx
 default.rb:
 
-> package 'nginx' 
+	 package 'nginx' 
 
 
-######emacs
+####emacs
 default.rb:
 
-> package 'emacs' 
+	 package 'emacs' 
 
+
+####iv (directorio de trabajo)
+default.rb:
+
+	directory '/home/roge/iv'
+	file "/home/roge/iv/readme" do
+		owner "roge"
+		group "roge"
+		mode 00544
+		action :create
+		content "Directorio para la asignatura IV dentro de la máquina virtual"
+	end
+    
+    
+    
+####node.json
+
+	{
+		"run_list": [
+			"recipe[emacs]", "recipe[nginx]", "recipe[iv]"
+		]
+	}	
+
+####solo.rb
+
+	file_cache_path "/home/roge/chef"
+	cookbook_path "/home/roge/chef/cookbooks"
+	json_attribs "/home/roge/chef/node.json"
+    
+    
 
