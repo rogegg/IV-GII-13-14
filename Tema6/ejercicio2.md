@@ -20,14 +20,27 @@ Chef no se encuentra en los repositorios por lo que para descargarlo lo haremos 
 
 Chef usa recetas con las que podemos configurar nuestra máquina virtual, para ello necesitamos tener una estructura de directorios como la que sigue:
 
-![ej2_arbol]()
+![ejercicio2_arbol](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej2_treeemacs.png)  
 
-Para este ejemplo se va a instalar emacs en la máquina virtual, para ello dentro de la carpeta _cookbooks_ tenemos una carpeta _emacs_ y dentro _recipes_ donde se alojará el fichero _default.rb_ que indica cómo instalar emacs.
+Para este ejemplo se va a instalar emacs en la máquina virtual, para ello dentro de la carpeta *cookbooks* tenemos una carpeta *emacs* y dentro *recipes* donde se alojará el fichero *default.rb* que indica cómo instalar emacs.
 
-En la carpeta _cookbooks_ tenemos dos ficheros: _node.json_ y _solo.rb_.
+En la carpeta *cookbooks* tenemos dos ficheros: _node.json_ y _solo.rb_:
 
-- node.json se usará para indicar qué recetas ejecutar.
-- En solo.rb indicaremos las rutas necesarias de chef y las rutas de recetas.
+- En el fichero **node.json** se usará para indicar qué recetas ejecutar.
+- En **solo.rb** indicaremos las rutas necesarias de chef y las rutas de recetas.
 
+
+Para instalar emacs, nginx y un directorio de trabajo como nos indica el ejercicio tendremos los siguientes ficheros:
+
+######nginx
+default.rb:
+
+> package 'nginx' 
+
+
+######emacs
+default.rb:
+
+> package 'emacs' 
 
 
