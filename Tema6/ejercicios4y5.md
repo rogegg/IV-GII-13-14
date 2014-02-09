@@ -57,7 +57,19 @@ Ya que este año no he cursado la asignatura DAI, voy a desplegar la aplicación
 
 ###### Playbook:
 
+En los playbooks vamos a crear las reglas para instalar los paquetes  y configuraciones necesarias para correr nuestra aplicación. Estos playbooks se encuentran en formato YAML.
 
+[practica3.yml](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/mvirtual/ansible/practica3.yml)
 
+Una vez creado el playbook lo lanzamos desde el anfitrión:
 
+> ansible-playbook practica3.yml
+
+![ejercicio5_playbook](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej5_yaml.png)
+
+Vemos cómo indica los cambios en naranja y las revisiones que no se han modificado aparecen en verde.
+
+Ya tenemos funcionando la aplicación.
+
+![ejercicio5_app](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej5_app.png)
 
