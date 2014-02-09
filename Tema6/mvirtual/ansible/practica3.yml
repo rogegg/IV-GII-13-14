@@ -1,0 +1,15 @@
+---
+- hosts: azure
+  sudo: yes
+  tasks:
+  - name: Instalando Apache 
+    apt: pkg=apache2 state=present
+
+  - name: Instalando PHP5
+    apt: pkg=php5 state=present
+  
+  - name: Reubicando index
+    action: shell cp /home/roge/IV_Practica3/codigo/index.php /var/www/index.html
+  - name: Reiniciando servicios
+    action: shell service apache2 restart
+  
