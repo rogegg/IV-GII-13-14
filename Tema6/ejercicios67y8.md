@@ -7,7 +7,7 @@ Tras instalar Vagrant:
 elejimos una de las imágenes de la lista [www.vagrantbox.es](www.vagrantbox.es):
 
 En nuestro caso
-> http://dl.dropbox.com/u/40989391/vagrant-boxes/debian-squeeze-i386.box
+> http://tools.swergroup.com/downloads/wheezy32.box
 
 Inicializamos la imagen con:
 
