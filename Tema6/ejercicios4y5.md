@@ -73,3 +73,12 @@ Ya tenemos funcionando la aplicación.
 
 ![ejercicio5_app](https://raw.github.com/rogegg/IV-GII-13-14/master/Tema6/capturas/ej5_app.png)
 
+
+###2. ¿Ansible o Chef?
+
+Al realizar los ejercicios Chef me ha resultado más complejo de aprender y al configurarlo he tenido más problemas. Ansible ha sido más fácil e intuitivo.
+
+Para proyectos en los que vayamos a desplegar varias máquinas de test, desarrollo y producción con una base similar, creo que Ansible nos facilita más el trabajo y nos puede ser más últil que Chef.
+
+
+
